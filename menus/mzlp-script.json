@@ -1,0 +1,33 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Build",
+        "command": "mzlp-script:executeFromEditor"
+      }
+    ],
+    ".tree-view":[
+      {
+        "label":"Build",
+        "command" : "mzlp-script:executeFromTreeview"
+      }
+    ]
+  },
+
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "mzlp-script",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "mzlp-script:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

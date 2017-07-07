@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "shift-alt-m": "mzlp-script:executeFromEditor",
+    "shift-alt-n": "mzlp-script:executeFromTreeview"
+  }
+}

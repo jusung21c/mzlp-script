@@ -1,0 +1,19 @@
+{
+  "name": "mzlp-script",
+  "main": "./lib/mzlp-script",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "mzlp-script:executeFromEditor",
+    "atom-workspace": "mzlp-script:executeFromTreeview"
+  },
+  "repository": "https://github.com/atom/mzlp-script",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
